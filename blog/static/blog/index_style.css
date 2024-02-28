@@ -1,0 +1,36 @@
+.grey-bg{
+    background-color: #f9fdff;
+}
+/* general settings for article */
+.img-deepwork{
+    /* height: 50%; */
+    margin-bottom: 3.4rem;
+    /* margin: 0 auto; */
+}
+.article-date{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #c2c8c8;
+}
+.article-mainheading{
+    color: #9d4b3c;
+    font-size: 5.2rem;
+    font-weight: 700;
+    margin-bottom: 3.4rem;
+    
+}
+.article-content{
+    padding: 1.2rem 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    /* light color */
+    color:#49595B;
+} 
+.readmore-icon,.readmore-btn{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #0b7285;
+    /* display: inline-block; */
+}
+

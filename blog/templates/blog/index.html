@@ -1,0 +1,29 @@
+{% extends "base.html"%} 
+{% load static %}
+{% block css_file %} 
+<link rel="stylesheet" href="{% static 'blog/index_style.css' %}">
+{% endblock %}
+{% block title %} My Blog {% endblock %} 
+{% block content %}
+<section>
+   <div class="container">
+    <div class="row">
+        <div class="col-md-9 " >
+            <p class="article-date">FEATURED POST . 25 MARCH 2024</p>
+            <h1  class="article-mainheading ">The Programmer's Guide to Deep Work</h1>
+            <div >
+            <img  src="{% static 'blog/images/work.avif' %}" alt="" class="rounded-2 img-fluid img-deepwork h-50">
+            </div>
+            <p  class="article-content">Welcome to the world of programming, where tight deadlines, complex problem-solving, and teamwork are the norm. Ever feel like you need a secret weapon to tackle all those coding challenges? That's where Deep Work comes in! Coined by the guru of productivity, Cal Newport, it's all about giving your undivided attention to the tasks that really matter. In this friendly guide, we're going to uncover why Deep Work is a game-changer for programmers. We'll spill the beans on practical techniques and tips that you can easily slip into your daily routine, and we'll dish out the potential upsides and downsides. Think of it as your backstage pass to supercharged focus and productivity in the coding universe! Ready to dive in? Let's roll up our sleeves and explore the world of Deep Work for programmers.</p>
+                <a class=" readmore-btn clearfix float-end" href="#">
+                Read More 
+                <ion-icon class="readmore-icon align-middle" name="chevron-down-outline"></ion-icon> 
+              </a>  
+        </div>
+        <div class="col-md-3 ">
+            <h1>other list</h1>
+        </div>
+    </div>
+   </div>
+</section>
+{% endblock %}
